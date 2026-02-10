@@ -6,8 +6,8 @@ version: 2
 env:
   - GO111MODULE=on
   - CGO_ENABLED=0
-  - GITHUB_ORG=nodauf
-  - DOCKER_ORG=nodauf
+  - GITHUB_ORG=totza2010
+  - DOCKER_ORG=totza2010
   - DOCKERFILE=Dockerfile.goreleaser
 
 before:
