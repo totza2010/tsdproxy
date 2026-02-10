@@ -10,7 +10,7 @@
   <script src="scripts.js" defer type="module"></script>
 </head>
 
-<body data-signals-dark="false" data-persist="dark"
+<body class="flex flex-col min-h-screen" data-signals-dark="false" data-persist="dark"
   data-attr-data--theme="$dark?'tsdproxy-dark':'tsdproxy-light'"
   data-on-keydown__window="evt.ctrlKey && evt.key === 'f' && (evt.preventDefault(), document.getElementById('searchInput').focus())">
   <nav class="navbar bg-base-300 dark:bg-base-200 shadow-md">
@@ -119,7 +119,7 @@
     </div>
   </nav>
 
-  <main data-on-load="@get('/stream')">
+  <main class="grow" data-on-load="@get('/stream')">
     <div id='proxy-list'></div>
   </main>
 
