@@ -20,6 +20,6 @@
   "dependencies": {
     "@mdi/svg": "^7.4.47",
     "@starfederation/datastar": "^1.0.0-beta.11",
-    "simple-icons": "^14.14.0"
+    "simple-icons": "^16.8.0"
   }
 }
